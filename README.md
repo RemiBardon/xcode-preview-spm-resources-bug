@@ -24,6 +24,12 @@
 
 When I use a localized string from the shared package, preview crashes.
 
+The underlying error is:
+
+```text
+Fatal error: unable to find bundle named MySubLibrary_MySubLibrary: file MySubLibrary/resource_bundle_accessor.swift, line 27
+```
+
 ## Crash example
 
 I recreated a *very* small package showing the bug, detailed below.
