@@ -1,0 +1,3 @@
+MyLibrary-1f661d45f63ceeb2ce03f99034cae162012cb739.txt => /MyLibrary/Products/Debug-iphonesimulator/PackageFrameworks/MyLibrary.framework/MyLibrary
+MyView.2.preview-thunk.dylib-6feefda6c7c16d5235142a563f253e1d02ad8ca2.txt => /MyLibrary/Intermediates.noindex/MyLibrary.build/Debug-iphonesimulator/MyLibrary.build/Objects-normal/x86_64/MyView.2.preview-thunk.dylib
+MyView.3.preview-thunk.dylib-20e05f87b7aeb6a25063ac3cf0e674b25d354556.txt => /MyLibrary/Intermediates.noindex/MyLibrary.build/Debug-iphonesimulator/MyLibrary.build/Objects-normal/x86_64/MyView.3.preview-thunk.dylib

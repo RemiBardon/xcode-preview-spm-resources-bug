@@ -1,0 +1,168 @@
+== DATE:
+
+    Thursday 4 February 2021 at 20:32:22 Central European Standard Time
+
+
+
+== PENDING UPDATE REASONS:
+
+    
+
+
+
+== PREVIEW UPDATE ERROR:
+
+    CrashError: XCPreviewAgent crashed
+    
+    XCPreviewAgent crashed. Check ~/Library/Logs/DiagnosticReports for crash logs from your application.
+    
+    ==================================
+    
+    |  RemoteHumanReadableError: Failed to update preview.
+    |  
+    |  The preview process appears to have crashed.
+    |  
+    |  Error encountered when sending 'previewInstances' message to agent.
+    |  
+    |  ==================================
+    |  
+    |  |  RemoteHumanReadableError: The operation couldn’t be completed. (BSServiceConnectionErrorDomain error 3.)
+    |  |  
+    |  |  BSServiceConnectionErrorDomain (3):
+    |  |  ==BSErrorCodeDescription: OperationFailed
+
+
+
+== VERSION INFO:
+
+    Tools: 12D4e
+    OS:    20B29
+    PID:   43372
+    Model: MacBook Pro
+    Arch:  x86_64h
+
+
+
+== ENVIRONMENT:
+
+    openFiles = [
+        /Users/remibardon/Documents/Swift/spm-resources-bug/MyLibrary/Sources/MyLibrary/MyView.swift
+    ]
+    wantsNewBuildSystem = true
+    newBuildSystemAvailable = true
+    activeScheme = MyLibrary
+    activeRunDestination = iPhone 11 variant iphonesimulator x86_64
+    workspaceArena = [x]
+    buildArena = [x]
+    buildableEntries = [
+        MyLibrary
+        MyLibrary
+    ]
+
+
+
+== SELECTED RUN DESTINATION:
+
+    name = iPhone 11
+    eligible = true
+    sdk = Optional(<DVTSDK:0x7fe46377fd90:'iphonesimulator14.4':Simulator - iOS 14.4:<DVTFilePath:0x7fe46377ef10:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk'>>)
+    variant = Optional("iphonesimulator")
+    device = Optional(<DVTiPhoneSimulator: 0x7fe46b4bb300> {
+    		SimDevice: iPhone 11 (FF4C3199-EB5D-48B4-A37F-DAAED938BA58, iOS 14.4, Shutdown)
+    })
+
+
+
+== SESSION GROUP 8032:
+
+    workspace identifier: ObjectIdentifier(0x00007fe45b3853b0) -> package.xcworkspace
+    providers: [
+        MyView_Previews /Users/remibardon/Documents/Swift/spm-resources-bug/MyLibrary/Sources/MyLibrary/MyView.swift
+    ]
+    translation units: [
+        /Users/remibardon/Documents/Swift/spm-resources-bug/MyLibrary/Sources/MyLibrary/MyView.swift
+    ]
+    attributes: [MyView_Previews[0]: [
+        DebuggingConfigurationPreviewAttributeKey: PreviewProcessDebuggingConfiguration(shouldDebug: false, loggingPath: nil, debuggingEnvironmentVars: [:]),
+        InteractivePreviewAttributeKey: false,
+    ]]
+    session: 8033
+    request sessions: [
+        My View Previews | MyView_Previews: not completed
+    ]
+
+
+
+== UPDATE SESSION 8033:
+
+    Start Date: Thursday 4 February 2021 at 20:31:25 Central European Standard Time
+    Preview provider "My View Previews" {
+        Simulator {
+            buildTarget: BuildTarget(arch: x86_64, platform: ios, sdkPath: iPhoneSimulator14.4.sdk, deploymentTarget: 14.4)
+            platform: ios
+            device: A306CD67-59DF-4F15-91B2-FAB0CBD9A897 iPhone 11
+            buildNumber: 18D46
+            sdk: iphonesimulator14.4
+            sdkVariant: none
+            runtimePath: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime
+        }
+        pid: 46606
+        host bundle: com.apple.dt.XCPreviewAgent {
+            url: file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/Agents/XCPreviewAgent.app/
+            version: 17522.500
+        }
+        host attributes: [
+            LaunchConfigEnvironmentVariablesPreviewAttributesKey: ["SQLITE_ENABLE_THREAD_ASSERTIONS": "1", "DYLD_LIBRARY_PATH": "/Users/remibardon/Library/Developer/Xcode/DerivedData/MyLibrary-dhkizuvwgorunkcmsgxkrzzmgdol/Build/Intermediates.noindex/Previews/MyLibrary/Products/Debug-iphonesimulator", "__XPC_DYLD_LIBRARY_PATH": "/Users/remibardon/Library/Developer/Xcode/DerivedData/MyLibrary-dhkizuvwgorunkcmsgxkrzzmgdol/Build/Intermediates.noindex/Previews/MyLibrary/Products/Debug-iphonesimulator", "__XPC_DYLD_FRAMEWORK_PATH": "/Users/remibardon/Library/Developer/Xcode/DerivedData/MyLibrary-dhkizuvwgorunkcmsgxkrzzmgdol/Build/Intermediates.noindex/Previews/MyLibrary/Products/Debug-iphonesimulator", "__XCODE_BUILT_PRODUCTS_DIR_PATHS": "/Users/remibardon/Library/Developer/Xcode/DerivedData/MyLibrary-dhkizuvwgorunkcmsgxkrzzmgdol/Build/Intermediates.noindex/Previews/MyLibrary/Products/Debug-iphonesimulator", "OS_ACTIVITY_DT_MODE": "YES", "DYLD_FRAMEWORK_PATH": "/Users/remibardon/Library/Developer/Xcode/DerivedData/MyLibrary-dhkizuvwgorunkcmsgxkrzzmgdol/Build/Intermediates.noindex/Previews/MyLibrary/Products/Debug-iphonesimulator"],
+        ]
+    }
+    Build Graph {
+        target dynamicPackageProduct MyLibrary (#1)
+        target staticPackageProduct MyLibrary_MyLibrary (#2)
+        target dynamicPackageProduct MyLibrary (#3)
+           unit MyView.swift (#4)
+           provider My View Previews (#5)
+    }
+    Update Plan {
+        iOS [x86_64 iphonesimulator14.4 iphonesimulator] (iPhone 11, FF4C3199-EB5D-48B4-A37F-DAAED938BA58-iphonesimulator14.4-x86_64-iphonesimulator), ["MyLibrary", "MyLibrary"], thinning disabled) {
+            Destination: 6926 default device for ios [
+                Framework Agent {
+                    previewables [
+                        provider MyLibrary.MyView_Previews
+                    ]
+                    translation units [
+                        MyView.swift (in MyLibrary)
+                    ]
+                    loadable products [
+                        Description(buildableName: "MyLibrary", moduleName: "MyLibrary")
+                    ]
+                    modules [
+                        MyLibrary
+                    ]
+                }
+            ]
+        }
+    }
+
+
+
+== SIMULATOR DEVICES:
+
+    A306CD67-59DF-4F15-91B2-FAB0CBD9A897 = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [booted]
+    2730267E-3872-4850-9322-DDCA7582E662 = com.apple.CoreSimulator.SimDeviceType.iPad-Air--4th-generation- [shutdown]
+    235181BA-E8E9-4688-93F7-17707CC6A0AC = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    547EA288-3A3B-4942-A6DA-374ADCA8D803 = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    5E84168B-5EC7-415D-B406-D6FBFF6857E5 = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    6F94EF25-56BB-41BC-A223-AF2390531C79 = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    B825915C-E54C-4CC5-B14D-23484296AA7C = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    D4931BBE-9962-462B-9D26-926ADC0E61FA = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    D5572429-6D56-46E3-8A6E-0274AAAAFDF5 = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    F84797C8-7111-4D67-9347-C9D3C3FB7607 = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    FA91B07B-F423-4A95-942C-DD5D3EF77BCD = com.apple.CoreSimulator.SimDeviceType.iPhone-11 [shutdown]
+    204A1781-F222-47D4-9D8E-1BA98BFA9ED4 = com.apple.CoreSimulator.SimDeviceType.iPhone-SE--2nd-generation- [shutdown]
+    8158FF21-5888-4DC9-8146-56D94AF0534D = com.apple.CoreSimulator.SimDeviceType.iPhone-X [shutdown]
+    8228BFAA-958B-488F-8B68-E6524655D683 = com.apple.CoreSimulator.SimDeviceType.iPhone-X [shutdown]
+    83C09C23-46CC-4F51-B0CF-1FF34148472D = com.apple.CoreSimulator.SimDeviceType.iPhone-X [shutdown]
+    918E3D26-017A-4C24-8942-B27497C6357F = com.apple.CoreSimulator.SimDeviceType.iPhone-X [shutdown]
+    F8D661E2-20F0-4E8A-B277-16F479041BB0 = com.apple.CoreSimulator.SimDeviceType.iPhone-X [shutdown]
+
+
