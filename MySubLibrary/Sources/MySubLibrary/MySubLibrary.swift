@@ -10,7 +10,7 @@ import Foundation
 public struct MySubLibrary {
 	
 	public static var helloWorld: String {
-		return NSLocalizedString("HELLO_WORLD", bundle: .module, comment: "Hello world sentence")
+		return NSLocalizedString("HELLO_WORLD", bundle: .fixedModule, comment: "Hello world sentence")
 	}
 	
 }
