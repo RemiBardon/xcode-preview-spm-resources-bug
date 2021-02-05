@@ -1,0 +1,10 @@
+//
+//  Localizable.strings
+//  MySubLibrary
+//
+//  Created by Rémi BARDON on 04/02/2021.
+//
+
+// French translations
+
+"HELLO_WORLD" = "Bonjour le monde!";
