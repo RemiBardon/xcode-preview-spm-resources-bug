@@ -7,7 +7,8 @@
 
 import Foundation
 
-// This workaround comes from Skyler_s and Nekitosss on <https://developer.apple.com/forums/thread/664295>
+// This workaround comes from <https://github.com/RemiBardon/xcode-preview-spm-resources-bug/blob/workaround/MySubLibrary/Sources/MySubLibrary/Bundle%2BFix.swift>,
+// and is based on Skyler_s and Nekitosss answers on <https://developer.apple.com/forums/thread/664295>.
 
 public let localBundle = Bundle.fixedModule
 
