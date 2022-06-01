@@ -1,5 +1,10 @@
 # XCode preview crashes when using resources accessed in another Swift Package
 
+**🚨 For everyone searching for a workaround, there is one!
+It's on the [`workaround`](https://github.com/RemiBardon/xcode-preview-spm-resources-bug/tree/workaround) branch.
+It's mainly the [`6599c31`](https://github.com/RemiBardon/xcode-preview-spm-resources-bug/commit/6599c31af1c49fe884e2b84149043aee51aca031) commit,
+but check the branch, as I might improve it later.**
+
 ## Context
 
 - I have a package shared by multiple projects ([MySubLibrary](MySubLibrary/) in this example). It contains localized strings (see [MySubLibrary/Resources/Strings](MySubLibrary/Sources/MySubLibrary/Resources/Strings/)). Localization works, as the tests, when run in French language, all pass.
